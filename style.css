@@ -1,0 +1,111 @@
+:root{
+    --background-color-primary: hsl(179, 62%, 43%);
+    --background-color-secundary: hsl(71, 73%, 54%);
+    --background-color-text:hsl(204, 43%, 93%);
+    --background-color-text-secundary:hsl(218, 22%, 67%);
+    --padding-primary:25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(127, 236, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    height: 375px;
+    width: 550px;
+    background-color:#fff;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+    display: block;
+}
+.header{
+    height: 45%;
+    width: 100%;
+    padding: var(--padding-primary);
+}
+.header-title{
+    font-size: 10px;
+    color: var(--background-color-primary);
+}
+.header-content{
+    margin: 20px 0;
+    width: 100%;
+    padding-right: 30px;
+}
+.header-sub-title{
+    font-size: 10px;
+    color: var(--background-color-secundary);
+}
+.header-sub-content{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--background-color-text-secundary);
+}
+.contain{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    background: var(--background-color-primary);
+    border-radius: 0 0 7px 7px;
+}
+.card{
+    padding: var(--padding-primary);  
+    color: var(--background-color-text);  
+    width: 50%;
+    font-size: 10px;
+    display: block;
+}
+.title{
+    margin-bottom: 15px;
+}
+.card-contain-primero{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.segundo{
+    background-color: rgb(31, 209, 206);
+    border-radius: 0 0 7px 0;
+    padding-right:35px ;
+}
+.card-contain-segundo{
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 55px;
+}
+.text{
+    display: flex;
+    align-items: center;    
+}
+.text p{
+    font-size: 12px;
+}
+.text span{
+    font-size: 25px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+.card-contain-primero p{
+    font-size: 13px;
+}
+.boton{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+    background: var(--background-color-secundary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
